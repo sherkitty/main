@@ -10,9 +10,6 @@
 [submodule "https://github.com/tevador/RandomX"]
 	path = https://github.com/tevador/RandomX
 	url = external/randomx
-[submodule "external/randomx"]
-	path = external/randomx
-	url = https://github.com/tevador/RandomX
 [submodule "external/supercop"]
 	path = external/supercop
 	url = https://github.com/sherkitty/supercop
