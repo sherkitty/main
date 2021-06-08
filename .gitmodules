@@ -1,9 +1,6 @@
 [submodule "external/unbound"]
 	path = external/unbound
 	url = https://github.com/sherkitty/unbound
-[submodule "external/miniupnp"]
-	path = external/miniupnp
-	url = https://github.com/miniupnp/miniupnp
 [submodule "external/rapidjson"]
 	path = external/rapidjson
 	url = https://github.com/Tencent/rapidjson
