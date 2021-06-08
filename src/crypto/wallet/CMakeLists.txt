@@ -35,7 +35,7 @@ set(SHERKITTY_WALLET_CRYPTO_LIBRARY "auto" CACHE STRING "Select a wallet crypto 
 # If the user specified "auto", detect best library defaulting to internal.
 #
 if (${SHERKITTY_WALLET_CRYPTO_LIBRARY} STREQUAL "auto")
-   sherkitty_crypto_autodetect(AVAILABLE BEST)
+   (AVAILABLE BEST)
   if (DEFINED BEST)
     message("Wallet crypto is using ${BEST} backend")
     set(SHERKITTY_WALLET_CRYPTO_LIBRARY ${BEST})
