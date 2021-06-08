@@ -7,6 +7,3 @@
 [submodule "https://github.com/tevador/RandomX"]
 	path = https://github.com/tevador/RandomX
 	url = external/randomx
-[submodule "external/supercop"]
-	path = external/supercop
-	url = https://github.com/sherkitty/supercop
